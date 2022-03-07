@@ -1,0 +1,135 @@
+body {
+    background-color: #f7f7f7;
+}
+
+.content {
+    width: 100%;
+    padding-top: 60px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.content .wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.wrapper .add-success-container {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    padding: 25px;
+}
+
+.add-success-container .add-success-title {
+    padding: 45px 0 0 370px;
+    font-size: 21px;
+    color: #000;
+}
+
+.add-success-container .add-success-title img {
+    width: 23px;
+    height: 17px;
+}
+
+.add-success-container .product-info {
+    float: left;
+    height: 150px;
+    margin: 28px 0 0 130px;
+}
+
+.add-success-container .product-info .product-img {
+    border: 1px solid #ECECEC;
+    float: left;
+}
+
+.add-success-container .product-info .product-img img {
+    width: 150px;
+    height: 150px;
+}
+
+.add-success-container .product-info .product-des {
+    float: left;
+    margin: 20px 0 0 36px;
+    font-size: 18px;
+}
+
+.add-success-container .product-info .product-des .product-name {
+    width: 350px;
+    color: #000;
+}
+
+.add-success-container .product-info .product-des .product-tag {
+    color: #686868;
+}
+
+.add-success-container .product-action {
+    margin: 80px 120px 0 0;
+    float: right;
+    font-size: 19px;
+    color: #fff;
+    line-height: 48px;
+    text-align: center;
+}
+
+.add-success-container .product-action .first {
+    margin-right: 26px;
+}
+
+.btn--lg {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: content-box;
+    user-select: none;
+    background: none !important;
+    word-wrap: normal;
+    white-space: nowrap;
+    outline: 0;
+    border: 0 !important;
+    line-height: 0;
+    font-size: 0;
+    padding: 0;
+    display: inline-table;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+    zoom: 1;
+}
+
+.add-success-container .product-action .btn--lg .btn-inner {
+    padding: 0 35px;
+}
+
+.btn-next .btn-inner, .laser-buy .btn-inner {
+    background-color: #ff9536;
+    border-color: #ff9536;
+    color: #fff;
+}
+.btn-inner {
+    vertical-align: middle;
+    display: table-cell;
+    border: 0!important;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    line-height: normal;
+    font-size: 12px;
+    overflow: hidden;
+}
+.btn--lg .btn-inner {
+    letter-spacing: 1px;
+    text-indent: 2px;
+    height: 46px;
+    font-size: 18px;
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    border-radius: 46px;
+    padding: 0 46px;
+}
+.add-success-container .product-action .btn--lg .btn-inner {
+    padding: 0 35px;
+}
+.second-buy .btn-inner, .now-buy .btn-inner, .installment-buy .btn-inner, .btn-appointment .btn-inner, .confirm-btn--submit .btn-inner, .reservation .btn-inner {
+    background-color: #f51200;
+    border: 1px solid #f51200;
+    color: #fff;
+}

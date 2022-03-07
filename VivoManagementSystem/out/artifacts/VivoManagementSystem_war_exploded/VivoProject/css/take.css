@@ -1,0 +1,490 @@
+.main-title-txt {
+    text-align: center;
+    line-height: normal;
+    font-size: 21px;
+    color: #333;
+    height: 26px;
+    padding: 40px 0 30px;
+}
+
+.vcontent strong {
+    font-weight: 400;
+}
+
+.main-title-txt .small {
+    color: #999;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.cl:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.address-info {
+    overflow: hidden;
+    margin-bottom: -25px;
+    position: relative;
+    width: 104%;
+}
+
+.address-info .adress-list {
+    margin-right: -15px;
+    overflow: hidden;
+}
+
+.address-info .adress-list {
+    padding: 10px 0 0 22px;
+}
+
+.address-info .adress-list .address-item {
+    border-color: #ccc;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.address-info .new {
+    text-align: center;
+    line-height: 200px;
+}
+
+.address-item {
+    float: left;
+    position: relative;
+    width: 269px;
+    height: 155px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.address-info .new .inner {
+    background: url("../images/icon-add-32x32_16a3e66.png") center 46px no-repeat;
+}
+
+.address-item label {
+    display: block;
+    cursor: pointer;
+    width: 225px;
+    margin: 0 auto;
+}
+
+.adress-list li.on {
+    border-color: #fff;
+    background: url("../images/border-address_f4178d4.png") no-repeat;
+}
+
+#J_addressDefaulted {
+    position: relative;
+    z-index: 1;
+}
+
+#J_addressDefaulted > span {
+    color: #008cd6;
+    white-space: nowrap;
+    position: absolute;
+    left: -7px;
+    top: 89px;
+}
+
+.address-item .item-top {
+    margin: 30px 0 15px;
+    overflow: hidden;
+}
+
+.address-item div {
+    clear: both;
+}
+
+.address-item div {
+    clear: both;
+}
+
+.address-item .item-top span:first-child {
+    float: left;
+    width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.address-item .item-top span {
+    float: right;
+}
+
+.address-item .operations {
+    display: none;
+    position: absolute;
+    left: 22px;
+    bottom: 15px;
+}
+
+.address-item .operations li {
+    float: left;
+    margin-right: 10px;
+    line-height: 20px;
+    color: #008cd6;
+    cursor: pointer;
+}
+
+.adress-list li:hover .operations {
+    display: block !important;
+}
+
+.operations-address-set-default.hide {
+    display: none !important;
+}
+
+/* ÃÌº”µÿ÷∑ */
+.panelWrap {
+    display: none;
+}
+
+.mask {
+    height: 100%;
+    width: 100%;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #333;
+    z-index: 99;
+    display: none;
+}
+
+.panelWrap .panel {
+    margin: -246px 0 0 -363px;
+    z-index: 100;
+    display: block;
+    width: 716px;
+    min-height: 452px;
+    height: inherit;
+}
+
+.panel {
+    display: block;
+    padding: 20px 0 0;
+}
+
+.dialog-container {
+    width: 482px;
+    padding: 35px 5px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-left: -236px;
+    background-color: #fff;
+    border-radius: 1px;
+    box-shadow: 0 0 53px rgba(0, 0, 0, .15);
+    z-index: 100;
+    display: none;
+}
+
+.panelWrap .icon-close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.dialog-container .icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin-right: 0;
+    width: 25px;
+    height: 25px;
+    background: 0 0;
+    cursor: pointer;
+}
+
+.dialog-container .icon-close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    margin-right: 0;
+    width: 25px;
+    height: 25px;
+    background: 0 0;
+    cursor: pointer;
+}
+
+.dialog-container .icon-close:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #a3a3a3;
+    transform: rotate(45deg);
+    transform-origin: center;
+    -ms-transform: rotate(45deg);
+    -ms-transform-origin: center;
+}
+
+.dialog-container .icon-close:before {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #a3a3a3;
+    transform: rotate(45deg);
+    transform-origin: center;
+    -ms-transform: rotate(45deg);
+    -ms-transform-origin: center;
+}
+
+.panelWrap .dialog-title {
+    margin: 11px 0 26px;
+}
+
+.dialog-title {
+    margin: 10px;
+    font-size: 21px;
+    color: #333;
+    text-align: center;
+}
+
+.dialog-title {
+    margin: 10px;
+    font-size: 21px;
+    color: #333;
+    text-align: center;
+}
+
+.panel .address-info-new {
+    margin: 0 auto;
+}
+
+#shipping-address-new-edit th {
+    width: inherit;
+    padding-right: 15px;
+}
+
+.panel th, .panel td {
+    vertical-align: top;
+    height: 52px;
+    padding-bottom: 10px;
+}
+
+.panel .defaultAddr-row label {
+    color: #666;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.defaultAddr-row .i-da-chkbox {
+    display: none;
+}
+
+.defaultAddr-row input {
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+.panelWrap input {
+    height: 38px;
+    line-height: 38px;
+    width: 407px;
+    text-indent: 13px;
+    border: 1px solid #d1d1d1;
+}
+
+.panel .defaultAddr-row .icon-checkbox {
+    width: 17px;
+    height: 17px;
+    margin-right: 8px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+}
+
+.icon-checkbox {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../images/icon-checkbox@2x_2044d74.png") no-repeat 0 0 / 100% auto;
+}
+
+.panel th {
+    color: #666;
+    font-weight: 400;
+    width: 120px;
+    text-align: left;
+    padding-top: 12px;
+}
+
+.panel strong {
+    color: #e50404;
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 4px;
+    font-family: \5b8b\4f53;
+}
+
+.panel th, .panel td {
+    vertical-align: top;
+    height: 52px;
+    padding-bottom: 10px;
+}
+
+.panel td {
+    text-align: left;
+}
+
+.panelWrap input {
+    height: 38px;
+    line-height: 38px;
+    width: 407px;
+    text-indent: 13px;
+    border: 1px solid #d1d1d1;
+}
+
+input[type=text], input[type=tel], textarea {
+    padding: 3px 6px;
+    border: 1px solid rgb(255, 140, 0);
+    border-radius: 2px;
+}
+
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    outline-style: none;
+    outline-width: 0;
+    resize: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dialog-container .icon-close:after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #a3a3a3;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    -ms-transform: rotate(-45deg);
+    -ms-transform-origin: center;
+}
+
+.dialog-container .icon-close:after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #a3a3a3;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    -ms-transform: rotate(-45deg);
+    -ms-transform-origin: center;
+}
+
+.panelWrap .area-pane-btns {
+    position: relative;
+    margin-top: -7px;
+    padding-bottom: 40px;
+}
+
+.area-pane-btns {
+    text-align: center;
+}
+
+.btn--normal, .btn--sm, .btn--md, .btn--lg {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: content-box;
+    user-select: none;
+    background: none !important;
+    word-wrap: normal;
+    white-space: nowrap;
+    outline: 0;
+    border: 0 !important;
+    line-height: 0;
+    font-size: 0;
+    padding: 0;
+    display: inline-table;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+    zoom: 1;
+}
+
+button {
+    cursor: pointer;
+}
+
+.panelWrap .btn--pop .btn-inner {
+    min-width: 100px;
+}
+
+.btn--pop .btn-inner {
+    background-color: #008ddc;
+    border-color: #008ddc;
+    color: #fff;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.btn--md .btn-inner {
+    letter-spacing: 1px;
+    font-size: 16px;
+    border-radius: 28px;
+    padding: 6px 25px;
+}
+
+.btn-inner {
+    vertical-align: middle;
+    display: table-cell;
+    border: 0 !important;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+    line-height: normal;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+.btn--normal:after, .btn--sm:after, .btn--md:after, .btn--lg:after, .laser-buy:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.icon-checkbox.checked {
+    background-position: 0 -24px;
+}
+
+.err-box select {
+    display: inline-block;
+    color: #333;
+    padding: 0 20px 0 20px;
+    height: 44px;
+    line-height: 44px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    border: 1px solid #ccc;
+}

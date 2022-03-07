@@ -1,0 +1,283 @@
+.vivo-foot-wrap {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.vivo-foot-wrap .gb-vivo-foot{
+    position: relative;/*给子类进行定位*/
+    max-width: 1200px;/*最大宽度*/
+    height: 360px;
+    margin: 0 auto;
+    background-color: white;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-directory{
+    width: 100%;
+    height: 260px;
+    display: table;
+    margin: auto;
+    font-size: 12px;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-directory .directory-list{
+    position: relative;
+    width: 80%;
+    display: table;
+    color: #333;
+}
+.gb-foot-directory ul.directory-list li {
+    position: relative;
+    width: 1%;
+    height: 100%;
+    display: table-cell;
+    z-index: 1;
+}
+.gb-foot-directory ul.directory-list li .f-d-title {
+    font-weight: 600;
+}
+.gb-foot-directory ul.directory-list li dd.t-d-title {
+    padding-top: 15px;
+}
+.gb-foot-directory ul.directory-list li a：hover{
+    
+}
+.gb-foot-directory ul.directory-list li a {
+    position: relative;
+    height: 100%;
+    line-height: 23px;
+    white-space: nowrap;/*    white-space: nowrap; */
+    -webkit-transition: color .4s ease;
+    -moz-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
+}
+.gb-foot-directory ul.directory-list li a:hover{
+    color: blue;
+}
+a{
+    text-decoration: none;
+}
+.gb-foot-directory ul.directory-phone {
+    position: absolute;
+    width: 20%;
+    top: 0;
+    right: 0;
+    text-align: right;
+}
+.gb-foot-directory .directory-phone .online {
+    display: inline-block;/*解决偏移度*/
+    margin-bottom: 20px;
+    font-size: 0;
+}
+.gb-foot-directory ul.directory-phone li dd {
+    color: #999;
+    line-height: 1;
+    font-size: 13px;
+}
+.gb-foot-directory .directory-phone .online a {
+    display: block;  /*这里导致同类元素偏移*/
+    color: #008cd6 !important;
+    font-size: 24px;
+    text-align: center;
+}
+.gb-foot-directory .directory-phone .online a::before {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    margin: -5px 18px 0 0;
+    width: 35px;
+    height: 30px;
+    background: center no-repeat url(../images/online-service-pc_8319a93.png);
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+}
+.gb-foot-directory .directory-phone .phone-num {
+    font-size: 24px;
+    padding-bottom: 6px;
+    color: #000;
+}
+
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright {
+    padding-top: 35px;
+    margin-top: 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #f2f2f2;
+    font-size: 12px;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright .other{
+    float: right;
+    margin-top: 12px;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright .other li{
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: color .4s ease;
+    -moz-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
+    position: relative;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright .other .global b{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin-right: .4em;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright .other .global:before{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 1px;
+    height: 10px;
+    background-color: #bbb;
+    bottom: 25px;
+    left: -2px;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright .other .global i{
+    color: #000;
+    font-size: 18px;
+}
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright .other a{
+
+}
+.icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.vivo-foot-wrap .gb-vivo-foot .gb-foot-copyright .other .other-link{
+    width: 90px;
+    height: 40px;
+}
+.copyright-text{
+    vertical-align: middle;
+}
+.redshield{
+    display: inline-block;
+    margin: 0 0 6px -10px;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    background-size: contain;
+    background: url(../images/gssw-icon-x2_db0a7f6.png)no-repeat center;
+    transform: scale(0.5);
+}
+
+.list-nav{
+    position: absolute;
+    bottom: 50px;
+    left: -32px;
+    width: 150px;
+    height: 145px;
+    box-shadow: 0 5px 30px -2px rgba(0,0,0,.1);
+    padding-top: 30px;
+    background-color: white;
+    border-radius: 10px;
+    visibility: hidden;
+    opacity: 0;
+    transform: matrix(1, 0, 0, 1, 0, -45);
+    transition: all .5s ease-in-out;
+}
+.list-nav .vivo-f-toast li{
+    width: 100%;
+    height: 40px;
+    text-align: left !important;
+    float: left;
+}
+.list-nav .vivo-f-toast li i{
+    margin-left: 30px;
+    font-size: 22px;
+    color: silver;
+    line-height: 40px;
+}
+.list-nav .vivo-f-toast li:hover{
+    background-color: rgba(0,0,0,.1);
+    cursor: pointer;
+}
+.list-nav .vivo-f-toast li:hover span{
+    font-weight: bold;
+}
+.list-nav .vivo-f-toast li:hover .icon-weibo{
+    color: #c90000;
+}
+.list-nav .vivo-f-toast li:hover .icon-weixin{
+    color: #00c700;
+}
+.list-nav .vivo-f-toast li .icon-zhifubao2{
+    font-size: 20px;
+}
+.list-nav .vivo-f-toast li:hover .icon-zhifubao2{
+    color: royalblue;
+}
+.list-nav .vivo-f-toast li span{
+    position: relative;
+    font-size: 15px;
+    color: #666;
+    display: block;
+    top: -34px;
+    padding-left: 70px;
+    line-height: 26px;
+    -webkit-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+.list-nav .vivo-f-toast .wx .wx-two,.list-nav .vivo-f-toast .zfb .zfb-two{
+    visibility: hidden; opacity: 0; transform: matrix(1, 0, 0, 1, 0, 50);
+    transition: all .3s ease-out;
+}
+.list-nav .vivo-f-toast .wx .wx-two .gonzhonhao,.list-nav .vivo-f-toast .zfb .zfb-two .shenghuohao{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin-left: -70px;
+}
+.list-nav .vivo-f-toast .wx .wx-two .img-two-wx{
+    width: 100px;
+    height: 170px;
+    background: url(../images/vivo-follow-ali_6f99f2c.jpg)no-repeat;
+    background-size: 70%;
+    background-position: 15px 50px;
+}
+.list-nav .vivo-f-toast .zfb .zfb-two .img-two-zfb{
+    width: 100px;
+    height: 170px;
+    background: url(../images/vivo-follow-wechat_b1e2888.jpg)no-repeat;
+    background-size: 70%;
+    background-position: 15px 50px;
+}
+.list-nav .vivo-f-toast .wx:hover .wx-two,.list-nav .vivo-f-toast .zfb:hover .zfb-two{
+    visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);
+    transition: all .3s ease-out;
+}
+.list-nav .vivo-f-toast .zfb .zfb-two{
+    top: -267% !important;
+}
+.list-nav .vivo-f-toast .wx .wx-two,.list-nav .vivo-f-toast .zfb .zfb-two{
+    position: absolute;
+    top: -68px;
+    left: -100%;
+    width: 150px;
+    height: 170px;
+    box-shadow: 0 5px 30px -2px rgba(0,0,0,.1);
+}
+.list-nav .border_bottom{
+    position: absolute;
+    left: 66px;
+    /* top: 70px; */
+    bottom: -10px;
+    width: 0;
+    height: 0;
+    border-width: 10px;
+    border-style: dashed;
+    border-bottom: none;
+    border-color: white #ededed #ededed;
+}
+.other-link:hover a{
+    color: blue;
+}
+.other-link:hover .list-nav {
+    transition: all .5s ease-in-out;visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);
+}

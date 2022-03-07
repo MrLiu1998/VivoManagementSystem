@@ -1,0 +1,314 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    outline: none 0px;
+}
+* {
+    background-color: transparent;
+    font-size: inherit;
+    color: inherit;
+    transition: all .10s ease-out;
+}
+
+#vivo-head-wrap {
+    font-size: 14px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    background-color: #2F2F2F;
+}
+
+.gb-vivo-head {
+    position: relative;
+    width: 1200px;
+    height: 44px;
+    margin: auto;
+    z-index: 2;
+}
+
+.vivo-logo-head {
+    position: absolute;
+    width: 74px;
+    height: 20px;
+    float: left;
+    top: -2px;
+    margin-top: 12px;
+    text-align: center;
+    background-size: 100%;
+    background-image: url(../images/vivo-logo.png);
+    z-index: 20;
+}
+
+#vivo-head-wrap a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.gb-vivo-nav {
+    width: 100%;
+}
+
+.gb-vivo-h-nav {
+    font-family: "Avenir Next ST", "Microsoft YaHei", "PingFang SC";
+    position: relative;
+    width: 60%;
+    height: 100%;
+    display: table;
+    margin: auto;
+    color: #fff;
+    z-index: 10;
+}
+
+.vivo-head-category-y {
+    position: relative;
+    display: block;
+    height: 100%;
+    line-height: 44px;
+    font-size: 14px;
+    white-space: nowrap;
+    padding: 0 22px;
+    -webkit-transition: color .4s ease;
+    -moz-transition: color .4s ease;
+    -o-transition: color .4s ease;
+    transition: color .4s ease;
+    color: #fff;
+}
+
+.nav-gb {
+    position: relative;
+    width: 1%;
+    display: table-cell;
+    z-index: 1;
+    transition: all .5s ease;
+}
+.nav-gb .sectle{
+    color: silver!important;
+    transform: matrix(1, 0, 0, 1, 0, 3)!important;
+}
+.nav-gb:hover a {
+    transform: matrix(1, 0, 0, 1, 0, 3);
+    transition: all .5s ease;
+}
+
+.nav-gb:hover .vivo-head-category-y {
+    color: silver;
+}
+
+.activer:hover .gb-vivo-menu-series {
+    height: 245px;
+    opacity: 1;
+}
+
+.gb-vivo-menu-series {
+    position: absolute;
+    width: 1200px;
+    height: 0;
+    top: 44px;
+    left: 0;
+    z-index: 1;
+    color: #fff;
+    overflow: hidden;
+    opacity: 0.1;
+}
+
+.activer:hover .list1 {
+    transform: matrix(1, 0, 0, 1, 0, 1);
+    height: 90%;
+    transition: all 1s ease-in-out;
+}
+
+.activer a:hover {
+    color: silver;
+}
+
+.list1 {
+    transform: matrix(1, 0, 0, 1, 0, -100);
+    padding-left: 10px;
+    height: 0;
+    border-left: 1px solid silver;
+    box-sizing: border-box;
+    transition: all 1s ease-in-out;
+}
+.list1 li {
+    position: relative;
+    z-index:9999999;
+}
+.f-menu-link a {
+    padding-bottom: 10px;
+    display: block;
+    font-size: 14px;
+    position: relative;
+    z-index:9999;
+}
+
+.vms-bigbox li {
+    transition: all 1s ease-in-out;
+}
+
+.vms-bigbox li:nth-child(1) {
+    visibility: hidden;
+    opacity: 0;
+    transform: matrix(1, 0, 0, 1, 0, -25);
+}
+
+.vms-bigbox li:nth-child(2) {
+    visibility: hidden;
+    opacity: 0;
+    transform: matrix(1, 0, 0, 1, 0, -55);
+}
+
+.vms-bigbox li:nth-child(3) {
+    visibility: hidden;
+    opacity: 0;
+    transform: matrix(1, 0, 0, 1, 0, -85);
+}
+
+.vms-bigbox li:nth-child(4) {
+    visibility: hidden;
+    opacity: 0;
+    transform: matrix(1, 0, 0, 1, 0, -120);
+}
+
+.vms-bigbox li:nth-child(5) {
+    visibility: hidden;
+    opacity: 0;
+    transform: matrix(1, 0, 0, 1, 0, -150);
+}
+
+.activer:hover .vms-bigbox li {
+    visibility: inherit;
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.vms-bigbox {
+    width: 100%;
+    height: 190px;
+}
+
+.gb-vivo-menu-series .vms-bigbox {
+    position: relative;
+    width: 100%;
+    height: 175px;
+    top: 0;
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    transform: translateZ(0);
+    background-color: #2F2F2F;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.vms-bigbox .list1 .nav-item-can {
+    position: absolute;
+    top: -28px;
+    left: -250px;
+    z-index: 1;
+    visibility: hidden;
+    transform: matrix(1, 0, 0, 1, 0, -1) translateY(-74px) scale(0.1);
+    opacity: 0;
+    transition: all 1s ease-in-out;
+}
+
+.activer:hover .vms-bigbox .list1 .nav-item-can {
+    visibility: inherit;
+    transform: matrix(1, 0, 0, 1, 0, 0) translateY(0px) scale(1);
+    opacity: 1;
+    transition: all 1s ease-in-out;
+}
+
+.iconfont-block {
+    float: right;
+    margin-right: -17px;
+    position: relative;
+    z-index: 999;
+}
+
+.iconfont:hover {
+    color: silver;
+}
+
+.gb-vivo-head .gb-nav-tool {
+    position: absolute;
+    width: 8%;
+    top: 50%;
+    margin-top: -9px;
+    right: 0;
+    z-index: 2;
+}
+
+.v_h_usercenter {
+    font-family: "Microsoft YaHei", "PingFang SC";
+    position: absolute;
+    height: auto;
+    padding: 25px 0;
+    top: 30px;
+    width: 180px;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-out;
+    transform: matrix(1, 0, 0, 1, 0, -25);
+}
+
+.v_h_usercenter .userlink .userlink-1:hover a, .v_h_usercenter .userlink .userlink-1:hover b {
+    color: aqua;
+}
+
+.v_h_usercenter .userlink .userlink-1 a {
+    display: block;
+    color: #666;
+    line-height: 50px;
+    font-size: 14px;
+    -webkit-transition: color .4s ease-out;
+    -moz-transition: color .4s ease-out;
+    -o-transition: color .4s ease-out;
+    transition: color .4s ease-out;
+    padding: 0 38px;
+    text-align: center;
+    opacity: 0;
+}
+
+.iconfont-block:hover .v_h_usercenter {
+    opacity: 1;
+    visibility: inherit;
+    transition: all .4s ease-out;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.iconfont-block:hover .userlink-1 a {
+    opacity: 1;
+    transform: matrix(1, 0, 0, 1, 0, 0) !important;
+    transition: all .5s ease-out;
+}
+
+.userlink-1:before {
+    display: block;
+}
+
+.userlink-1 b {
+    float: left;
+    margin-right: 10px;
+    color: silver;
+    vertical-align: middle;
+}
+
+/* 分割线 */
+.J_replace_content {
+    width: 100%;
+    /*height: 523px;*/
+    /*margin-bottom: 60px;*/
+    /*z-index: 9;*/
+    padding-bottom:30px;
+}
+i.iconfont.sealet {color: white; }

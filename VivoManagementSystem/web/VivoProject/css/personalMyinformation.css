@@ -1,0 +1,99 @@
+.vcontent {
+    float: left;
+    width: 925px;
+    padding: 0 30px 30px;
+    min-height: 952px;
+    color: #666;
+    background-color: #fff;
+    margin-bottom: 100px;
+}
+
+.vcontent .module-title, .content .page-title {
+    padding-top: 38px;
+    font-size: 21px;
+    color: #000;
+    text-align: center;
+}
+
+.vcontent .module-item {
+    color: #333;
+}
+
+.form-table {
+    width: 100%;
+    table-layout: fixed;
+    margin: 30px 0 50px;
+}
+
+.form-table th {
+    text-align: right;
+}
+
+.form-table th, .form-table td {
+    padding: 15px 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.form-table img {
+    max-width: 200px;
+}
+
+img {
+    border: 0;
+}
+
+.err-box {
+    position: relative;
+}
+
+.sex-box label {
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.form-table input[type=checkbox], .form-table input[type=radio] {
+    position: relative;
+    top: 2px;
+    margin-right: 6px;
+}
+
+.red {
+    color: #f04141 !important;
+}
+
+.form-table select {
+    padding: 3px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+body .hidden {
+    display: none;
+}
+
+select {
+    outline: none;
+}
+
+#city-error {
+    color: #e22122;
+}
+
+.form-table span.error-style {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    font-size: 12px;
+}
+.form-table button.submit {
+    width: 160px;
+    height: 35px;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.btn-blue {
+    color: #fff;
+    background-color: #008ddc;
+    border: 1px solid #008ddc;
+}

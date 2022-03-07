@@ -1,0 +1,1452 @@
+#content {
+    padding-bottom: 30px;
+    margin-top: 60px;
+}
+
+#header, #footer, #content {
+    min-width: 1200px;
+}
+
+.main-title-module {
+    height: 66px;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    color: #666;
+    table-layout: fixed;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 19px;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+.main-title-txt {
+    text-align: center;
+    height: 66px;
+    line-height: 66px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.confirm-module {
+    background: #fff;
+    padding: 35px;
+    border-bottom: 1px #e7e7e7 solid;
+    border-bottom: 1px rgba(0, 0, 0, .05) solid;
+}
+
+.confirm-module {
+    margin-bottom: 19px;
+}
+
+ol, li, ul, dl, dt, dd {
+    list-style: none;
+}
+
+.module-title {
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0;
+    position: relative;
+}
+
+.tip-address {
+    margin-left: 36px;
+    font-size: 12px;
+    color: #bbb;
+    vertical-align: bottom;
+}
+
+.confirm-module .address-info {
+    overflow: hidden;
+    margin-bottom: -15px;
+    position: relative;
+    width: 100%;
+}
+
+.address-info .adress-list {
+    margin-right: -15px;
+    overflow: hidden;
+}
+
+.on {
+    border-color: #fff;
+    background: url(../images/border-address_f4178d4.png) no-repeat;
+}
+
+.address-item {
+    float: left;
+    position: relative;
+    width: 269px;
+    height: 155px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.address-item label {
+    display: block;
+    cursor: pointer;
+    width: 225px;
+    margin: 0 auto;
+}
+
+.address-item .item-top {
+    margin: 30px 0 15px;
+    overflow: hidden;
+}
+
+.address-item div {
+    clear: both;
+}
+
+.address-item .item-top span:first-child {
+    float: left;
+    width: 125px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.address-item .item-top span {
+    float: right;
+}
+
+.address-item div {
+    clear: both;
+}
+
+.address-item p {
+    max-height: 3.2em;
+    overflow: hidden;
+    line-height: 1.6;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.mlellipsis {
+    display: block;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -ms-text-overflow: ellipsis;
+}
+
+.address-item .operations {
+    display: none;
+    position: absolute;
+    left: 22px;
+    bottom: 15px;
+}
+
+.address-item .operations li,.address-item .operations li a {
+    float: left;
+    margin-right: 10px;
+    line-height: 20px;
+    color: #008cd6;
+    cursor: pointer;
+}
+
+.address-info .new {
+    text-align: center;
+    line-height: 200px;
+}
+
+.address-info .new .inner {
+    background: url(../images/icon-add-32x32_16a3e66.png) center 46px no-repeat;
+}
+
+.address-list-toggleBar a {
+    position: relative;
+    z-index: 0;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    outline: 0 none;
+}
+
+.confirm-module {
+    background: #fff;
+    padding: 35px;
+    border-bottom: 1px #e7e7e7 solid;
+    border-bottom: 1px rgba(0, 0, 0, .05) solid;
+}
+
+.confirm-module {
+    margin-bottom: 19px;
+}
+
+.confirm-module {
+    background: #fff;
+    padding: 35px;
+    border-bottom: 1px #e7e7e7 solid;
+    border-bottom: 1px rgba(0, 0, 0, .05) solid;
+}
+
+.confirm-module {
+    margin-bottom: 19px;
+}
+
+.module-title {
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0;
+    position: relative;
+}
+
+.module-title small {
+    margin-left: 30px;
+    font-size: 14px;
+    color: #666;
+}
+
+.cl {
+    zoom: 1;
+}
+
+html body, html input {
+    font-family: "方正悠黑简体_纤", "Microsoft YaHei", Arial;
+}
+
+input, textarea, select, button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    outline-style: none;
+    outline-width: 0;
+    resize: none;
+    padding: 0;
+    margin: 0;
+}
+
+.delivery-info .pay-method.on, .invoice-info .tax-type.on {
+    border-color: #000;
+}
+
+.pay-method-more, .delivery-info .pay-method, .invoice-info .tax-type {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 48px;
+    line-height: 49px;
+    width: 158px;
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+
+.delivery-info .pay-method.on i {
+    visibility: visible;
+}
+
+.delivery-info .pay-method i {
+    visibility: hidden;
+    position: absolute;
+    content: '';
+    width: 14px;
+    height: 9px;
+    background: #fff url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/order/icon-up_69d855f.png) no-repeat;
+    border-bottom-color: #bbb;
+    left: 50%;
+    bottom: -24px;
+    margin-left: -8px;
+    z-index: 1;
+}
+
+b, em, i {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pay-method-more, .delivery-info .pay-method, .invoice-info .tax-type {
+    display: inline-block;
+    position: relative;
+    margin-right: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    height: 48px;
+    line-height: 51px;
+    width: 158px;
+    float: left;
+    position: relative;
+    z-index: 0;
+}
+
+.pay-method-more {
+    border-color: transparent;
+    width: auto;
+    padding-left: 10px;
+    color: #008cd6;
+}
+
+.pay-method-more b {
+    font-family: \5b8b\4f53;
+    font-weight: 700;
+    color: #008cd6;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 4px;
+}
+
+element.style {
+    display: block;
+}
+
+.pay-method-help p {
+    line-height: 2;
+    color: #999;
+    font-size: 13px;
+}
+
+.pay-method-help p {
+    line-height: 2;
+    color: #999;
+    font-size: 13px;
+}
+
+.pay-method-help p {
+    line-height: 2;
+    color: #999;
+    font-size: 13px;
+}
+
+dd.invoice-info {
+    margin-bottom: -20px;
+}
+
+.invoice-info .tax-box {
+    margin-bottom: 20px;
+}
+
+.invoice-info .tax-type {
+    vertical-align: top;
+}
+
+.invoice-form .item {
+    margin-bottom: 15px;
+}
+
+.invoice-info label {
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 55px;
+    height: 55px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.invoice-info .err-tip {
+    display: inline-block;
+    margin-left: 12px;
+    height: 50px;
+    line-height: 50px;
+    color: #f51919;
+}
+
+.invoice-form .name {
+    float: left;
+    width: 128px;
+}
+
+.invoice-info .tax-ipt .red {
+    font-size: 15px;
+    font-weight: 400;
+    padding-right: 4px;
+    font-family: \5b8b\4f53;
+    line-height: 55px;
+    margin-right: 3px;
+}
+
+.invoice-info .tax-ipt span {
+    float: left;
+    margin-right: 15px;
+}
+
+.red {
+    color: #f04141 !important;
+}
+
+.invoice-info .tax-ipt span {
+    float: left;
+    margin-right: 15px;
+}
+
+.invoice-info label {
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 55px;
+    height: 55px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+user agent stylesheet
+label {
+    cursor: default;
+}
+
+.invoice-info .fm-ipt {
+    float: left;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    display: inline-block;
+    height: 56px;
+    vertical-align: top;
+}
+
+:root .invoice-info .fm-ipt-txt {
+    padding: 15px 0;
+    margin-top: 10px;
+}
+
+.invoice-info .fm-ipt-txt {
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    line-height: 18px;
+    height: 18px;
+    background: #fff;
+    padding: 17px 0 13px;
+    width: 483px;
+    text-indent: .5em;
+    font-size: 14px;
+    vertical-align: top;
+    float: left;
+}
+
+.invoice-info .err-tip {
+    display: inline-block;
+    margin-left: 12px;
+    height: 50px;
+    line-height: 50px;
+    color: #f51919;
+}
+
+body .hidden {
+    display: none;
+}
+
+.invoice-form .invoice-info {
+    margin-bottom: 20px;
+    color: #888;
+}
+
+.invoice-form .invoice-info a {
+    margin-left: 50px;
+    color: #008ddc;
+    text-decoration: underline;
+}
+
+invoice-form .invoice-more span {
+    cursor: pointer;
+}
+
+.invoice-form .invoice-more {
+    margin-bottom: 20px;
+}
+
+div.confirm-cart-module {
+    padding: 0;
+}
+
+.invoice-info label {
+    margin-right: 5px;
+    font-size: 14px;
+    line-height: 55px;
+    height: 55px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.cl:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+::selection {
+    background: #008cd6;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #008cd6;
+    color: #fff;
+    text-shadow: none;
+}
+
+body {
+    background: #f7f7f5;
+}
+
+.invoice-info .err-tip {
+    display: inline-block;
+    margin-left: 12px;
+    height: 50px;
+    line-height: 50px;
+    color: #f51919;
+}
+
+div.confirm-cart-module {
+    padding: 0;
+}
+
+.confirm-cart-module .main-title-module {
+    margin-bottom: 0;
+}
+
+.main-title-module {
+    height: 66px;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    color: #666;
+    table-layout: fixed;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 19px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.main-title-module {
+    height: 66px;
+    background: #fff;
+    overflow: hidden;
+    width: 100%;
+    color: #666;
+    table-layout: fixed;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-bottom: 19px;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+.confirm-cart-module .main-title-module td {
+    padding: 10px 35px;
+}
+
+td.main-title-txt {
+    text-align: left;
+}
+
+.main-title-txt {
+    text-align: center;
+    height: 66px;
+    line-height: 66px;
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0;
+}
+
+.confirm-cart-module .main-title-module td {
+    padding: 10px 35px;
+}
+
+.confirm-cart-module .continue-shopping {
+    margin: 0;
+}
+
+.continue-shopping {
+    float: right;
+    margin: 0 35px 0 0;
+    color: #333;
+}
+
+.continue-shopping b {
+    font-family: \5b8b\4f53;
+    font-weight: 700;
+    color: #333;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 4px;
+    margin-bottom: 3px;
+}
+
+.confirm-module .cart-head, .confirm-module .prod-list-wrap, .confirm-module .prod-attach-wrap {
+    padding: 0 70px 0 40px;
+}
+
+.cart-head {
+    border-top: 2px solid #f7f7f5;
+}
+
+.cart-head, .prod-list-wrap, .prod-attach-wrap {
+    background: #fff;
+    padding: 0 26px;
+}
+
+.order-table {
+    color: #686868;
+}
+
+.order-table {
+    width: 100%;
+    color: #666;
+    table-layout: fixed;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.order-table {
+    width: 100%;
+    color: #666;
+    table-layout: fixed;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+.confirm-module .cart-head .goods-col {
+    width: 430px;
+    text-indent: 40px;
+}
+
+.cart-head .goods-col {
+    text-align: center;
+}
+
+.cart-head th {
+    height: 64px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+}
+
+.confirm-module .prod-bundle {
+    border-top: 2px solid #f7f7f5;
+}
+
+.confirm-module .prod-bundle .full-reduction {
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+.confirm-module .prod-bundle .full-reduction .f-icon {
+    display: inline-block;
+    width: 46px;
+    height: 21px;
+    color: #F10313;
+    line-height: 21px;
+    text-align: center;
+    border: 1px solid #F10313;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-right: 8px;
+}
+
+.confirm-module .prod-bundle .full-reduction .f-des {
+    color: #252525;
+}
+
+.confirm-module .prod-bundle .full-reduction .f-des span {
+    color: #F10313;
+}
+
+html body, html input {
+    font-family: "方正悠黑简体_纤", "Microsoft YaHei", Arial;
+}
+
+.confirm-module .prod-bundle .prod-list-wrap {
+    border-top: 0;
+}
+
+.order-table .prod-pic {
+    position: relative;
+    width: 142px;
+    vertical-align: top;
+    font-size: 0;
+    text-align: left;
+}
+
+.order-table td {
+    vertical-align: middle;
+}
+
+.order-table a {
+    color: #333;
+}
+
+.attach-line.package .figure, .prod-line .prod-pic .figure {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+}
+
+.prod-line .prod-pic .figure {
+    margin: 25px 20px;
+}
+
+.figure {
+    border: 1px solid #ececec;
+}
+
+.prod-line .figure img, .attach-line.package .figure img {
+    width: 100px;
+    height: 100px;
+}
+
+.confirm-module .prod-line .goods-col {
+    width: 282px;
+    text-align: left;
+}
+
+.goods-col .goods-link {
+    display: inline-block;
+    width: 100%;
+    color: #333;
+    white-space: nowrap;
+    word-wrap: normal \9;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.order-table a {
+    color: #333;
+}
+
+.order-table .total-price {
+    color: #f51200;
+}
+
+.confirm-module {
+    background: #fff;
+    padding: 35px;
+    border-bottom: 1px #e7e7e7 solid;
+    border-bottom: 1px rgba(0, 0, 0, .05) solid;
+}
+
+.module-title {
+    height: 30px;
+    line-height: 30px;
+    color: #333;
+    font-size: 20px;
+    margin: 0;
+    padding: 5px 0;
+    position: relative;
+}
+
+.module-title .coupon-tip {
+    font-size: 14px;
+    color: #666;
+    white-space: nowrap;
+    padding-left: 15px;
+}
+
+.module-title .coupon-tip span {
+    margin-right: 10px;
+}
+
+.module-title .add {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 26px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    font-size: 14px;
+}
+
+.module-title .add .radios {
+    width: 21px;
+    height: 21px;
+    background-image: url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/order/plus_e455912.png);
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-right: 8px;
+}
+
+.module-title .add {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 26px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    font-size: 14px;
+}
+
+.module-title .add {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    line-height: 26px;
+    position: absolute;
+    top: 7px;
+    right: 0;
+    font-size: 14px;
+}
+
+.coupon-list, .voucher-list {
+    margin-top: 15px;
+    max-height: 240px;
+}
+
+.core-tips-dialog {
+    text-align: left;
+    padding: 0 30px;
+}
+
+.core-tips-dialog .rule-title {
+    margin: 22px 0 12px;
+    font-size: 18px;
+    color: #252525;
+}
+
+.core-tips-dialog .rule-title {
+    margin: 22px 0 12px;
+    font-size: 18px;
+    color: #252525;
+}
+
+.core-tips-dialog .rule {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 4px;
+}
+
+.add-container .des {
+    margin-top: 40px;
+    font-size: 14px;
+    color: #333;
+}
+
+.add-container .input {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -moz-box-orient: vertical;
+    -moz-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.add-container .input input {
+    margin: 14px;
+    width: 358px;
+    height: 42px;
+    border: 1px solid #CCC;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.add-container .input .err {
+    display: none;
+    width: 358px;
+    font-size: 14px;
+    color: #F81200;
+    text-align: left;
+}
+
+.confirm-module {
+    background: #fff;
+    padding: 35px;
+    border-bottom: 1px #e7e7e7 solid;
+    border-bottom: 1px rgba(0, 0, 0, .05) solid;
+}
+
+.right-box {
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.right-box table {
+    float: right;
+    color: #666;
+    table-layout: fixed;
+    text-align: center;
+    vertical-align: middle;
+    word-wrap: break-word;
+}
+
+.other-info td {
+    text-align: right;
+    line-height: 1;
+    vertical-align: middle;
+    padding: 10px 0;
+}
+
+.other-info td label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+user agent stylesheet
+label {
+    cursor: default;
+}
+
+dfn {
+    font-style: normal;
+    font-family: "Microsoft YaHei" !important;
+}
+
+.other-info td label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.other-info td label {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.red {
+    color: #f04141 !important;
+}
+
+.red {
+    color: #f04141 !important;
+}
+
+total-amount .real-price-box {
+    border-top: 1px solid #eee;
+    margin: 20px 0 0;
+    padding: 20px 0 0;
+}
+
+.confirm-module .real-price-box {
+    text-align: right;
+    padding: 5px 0 8px;
+}
+
+.real-price-box > label {
+    color: #666;
+    margin-right: 10px;
+}
+
+.real-price-box label {
+    font-size: 18px;
+}
+
+.real-price.red {
+    color: #f04141 !important;
+    font-size: 32px;
+}
+
+.delivery-address {
+    text-align: right;
+    font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+.delivery-address label {
+    margin-right: 5px;
+}
+
+.confirm-btn-box {
+    text-align: right;
+    padding: 20px 0 10px;
+}
+
+.confirm-btn-box .confirm-item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -moz-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.btn--normal, .btn--sm, .btn--md, .btn--lg {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-sizing: content-box;
+    user-select: none;
+    background: none !important;
+    word-wrap: normal;
+    white-space: nowrap;
+    outline: 0;
+    border: 0 !important;
+    line-height: 45px;
+    font-size: 0;
+    padding: 0;
+    display: inline-table;
+    vertical-align: middle;
+    position: relative;
+    cursor: pointer;
+    z-index: 0;
+    zoom: 1;
+}
+
+.confirm-btn-box .btn-inner {
+    width: 170px;
+    padding: 0;
+}
+
+.second-buy .btn-inner, .now-buy .btn-inner, .installment-buy .btn-inner, .btn-appointment .btn-inner, .confirm-btn--submit .btn-inner, .reservation .btn-inner {
+    background-color: #f51200;
+    border: 1px solid #f51200;
+    color: #fff;
+}
+
+.btn--lg .btn-inner {
+    letter-spacing: 1px;
+    text-indent: 2px;
+    height: 46px;
+    font-size: 18px;
+    -webkit-border-radius: 46px;
+    -moz-border-radius: 46px;
+    border-radius: 46px;
+    padding: 0 46px;
+}
+
+.btn--normal:after, .btn--sm:after, .btn--md:after, .btn--lg:after, .laser-buy:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#side-bar.backtopShow {
+    margin-bottom: 0;
+}
+
+#side-bar {
+    position: fixed;
+    z-index: 99;
+    right: 0;
+    bottom: 50px;
+    margin-bottom: 50px;
+}
+
+#side-bar .shopcart {
+    background: 0 0;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    cursor: default;
+}
+
+#side-bar > li {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    -webkit-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    transition: background-color .4s;
+}
+
+#side-bar .iconshop:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#side-bar .iconshop:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.icon-cart-fine:before {
+    content: "\e60b";
+}
+
+#side-bar .prompt {
+    width: 133px;
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+}
+
+#side-bar .prompt, #side-bar .contentbox {
+    display: none;
+    cursor: default;
+    position: absolute;
+    right: 60px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    -moz-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+}
+
+#side-bar .prompt .triangle, #side-bar .contentbox .triangle {
+    content: "";
+    position: absolute;
+    right: -7px;
+    top: 19px;
+    width: 7px;
+    height: 12px;
+    background: center center no-repeat url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/common/sidebar-triangle_97f842e.png);
+}
+
+#side-bar .qrcode .prompt, #side-bar .contentbox {
+    bottom: 0;
+}
+
+#side-bar.backtopShow .shopcart .contentbox .triangle, #side-bar.has-feedback .shopcart .contentbox .triangle {
+    top: auto;
+    bottom: 168px;
+}
+
+#side-bar.backtopShow .shopcart ul {
+    min-height: 90px;
+}
+
+.shopcart-fixbox .result {
+    margin: 0 34px;
+    border-top: 1px solid #f9f9f9;
+}
+
+.shopcart-fixbox .result > div {
+    width: 115px;
+    line-height: 1;
+}
+
+.shopcart-fixbox .left, .shopcart-fixbox .center, .shopcart-fixbox .delete, .shopcart-fixbox .result > div, .shopcart-fixbox .clearing {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.shopcart-fixbox .result > div :first-child {
+    padding-bottom: 4px;
+    color: #4d4d4d;
+    font-size: 14px;
+}
+
+.shopcart-fixbox .result .rmb-symbol {
+    color: #f51919;
+    font-size: 18px;
+}
+
+.shopcart-fixbox .clearing {
+    margin: 38px 0;
+    width: 105px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 32px;
+    text-align: center;
+    -webkit-border-radius: 16px / 50%;
+    -moz-border-radius: 16px / 50%;
+    border-radius: 16px / 50%;
+    background-color: #f51919;
+}
+
+.shopcart-fixbox .left, .shopcart-fixbox .center, .shopcart-fixbox .delete, .shopcart-fixbox .result > div, .shopcart-fixbox .clearing {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#side-bar .shopcart .prodnum {
+    position: relative;
+    z-index: 3;
+    display: inline-block;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 9px 0 0 26px;
+    padding: 0 2px;
+    min-width: 18px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    -webkit-border-radius: 9px / 50%;
+    -moz-border-radius: 9px / 50%;
+    border-radius: 9px / 50%;
+    background-color: #f51919;
+    visibility: hidden;
+}
+
+.iconshop {
+    font-family: iconshop !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#side-bar .iconshop:nth-child(2):before {
+    top: 50px;
+}
+
+#side-bar .iconshop:nth-child(2):before {
+    top: 50px;
+}
+
+#side-bar .iconshop:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+#side-bar .iconshop:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.icon-earpiece:before {
+    content: "\e608";
+}
+
+#side-bar li.iconshop > a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#side-bar .prompt {
+    width: 133px;
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+}
+
+#side-bar .prompt, #side-bar .contentbox {
+    display: none;
+    cursor: default;
+    position: absolute;
+    right: 60px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    -moz-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+}
+
+#side-bar .prompt .triangle, #side-bar .contentbox .triangle {
+    content: "";
+    position: absolute;
+    right: -7px;
+    top: 19px;
+    width: 7px;
+    height: 12px;
+    background: center center no-repeat url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/common/sidebar-triangle_97f842e.png);
+}
+
+#side-bar li.iconshop > a {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+#side-bar .prompt {
+    width: 133px;
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+}
+
+#side-bar .prompt, #side-bar .contentbox {
+    display: none;
+    cursor: default;
+    position: absolute;
+    right: 60px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    -moz-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+}
+
+#side-bar .prompt .triangle, #side-bar .contentbox .triangle {
+    content: "";
+    position: absolute;
+    right: -7px;
+    top: 19px;
+    width: 7px;
+    height: 12px;
+    background: center center no-repeat url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/common/sidebar-triangle_97f842e.png);
+}
+
+#side-bar .backtop, #side-bar > li.active .prompt {
+    display: none;
+}
+
+#side-bar .backtop, #side-bar > li.active .prompt {
+    display: none;
+}
+
+#side-bar > li {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    cursor: pointer;
+    -webkit-transition: background-color .4s;
+    -o-transition: background-color .4s;
+    -moz-transition: background-color .4s;
+    transition: background-color .4s;
+}
+
+#side-bar .prompt {
+    width: 133px;
+    color: #4c4c4c;
+    font-size: 16px;
+    line-height: 48px;
+    text-align: center;
+}
+
+#side-bar .prompt, #side-bar .contentbox {
+    display: none;
+    cursor: default;
+    position: absolute;
+    right: 60px;
+    border: 1px solid #ebebeb;
+    background-color: #fff;
+    -webkit-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    -moz-box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+    box-shadow: 0 0 50px 1px rgba(100, 100, 100, .1);
+}
+
+#side-bar .prompt .triangle, #side-bar .contentbox .triangle {
+    content: "";
+    position: absolute;
+    right: -7px;
+    top: 19px;
+    width: 7px;
+    height: 12px;
+    background: center center no-repeat url(https://shopstatic.vivo.com.cn/vivoshop/web/dist/img/common/sidebar-triangle_97f842e.png);
+}

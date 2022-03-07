@@ -1,0 +1,346 @@
+body {
+    min-width: 1200px;
+    overflow-x: hidden;
+    background-color: #f7f7f5;
+}
+
+#header, #footer, #content {
+    min-width: 1200px;
+}
+
+.floor .info {
+    position: relative;
+}
+
+.floor .subject {
+    padding: 38px 0px 25px;
+    color: #333;
+    font-size: 24px;
+    line-height: 1;
+    text-align: center;
+}
+
+
+.floor .more-wrapper {
+    position: absolute;
+    right: 12px;
+    bottom: 30px;
+}
+
+.floor .more-wrapper a {
+    margin-left: 22px;
+    color: #333;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.floor .more-wrapper li:hover a {
+    color: red;
+}
+
+.floor .more-wrapper .more .iconshop {
+    font-size: 12px;
+}
+
+
+.floor.p_3 .box > a > img, .floor.c_3 .box {
+    height: 511px;
+}
+
+.floor.fp .box, .floor.c_3 .box, .floor.p_3 .box {
+    width: 394px;
+}
+
+.floor.c_3 .box > a > img {
+    margin-top: 58px;
+    width: 230px;
+    height: 230px;
+}
+
+.u-flyer {
+    display: block;
+    width: 180px;
+    height: 180px;
+    transform: scale(.5);
+    position: fixed;
+    z-index: 9999;
+}
+
+
+.floor .color-wrapper {
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    font-size: 0;
+    text-align: center;
+    background-color: #fff;
+    -webkit-transition: opacity .4s linear;
+    -moz-transition: opacity .4s linear;
+    -ms-transition: opacity .4s linear;
+    -o-transition: opacity .4s linear;
+    transition: opacity .4s linear;
+}
+
+.box-list .box:hover .color-wrapper {
+    opacity: 1;
+    filter: alpha(opacity=1);
+}
+
+.floor.c_3 .color-list {
+    padding-top: 28px;
+}
+
+.floor.c_3 .color-list li.selected, .floor.c_3 .color-list li:hover {
+    margin: 2px 8px;
+}
+
+:root .floor .color-list li.selected, :root .floor .color-list li:hover {
+    border-color: #fff;
+}
+
+.floor .color-list li.selected, .floor .color-list li:hover {
+    margin: 2px 8px;
+    border: 2px solid #008ddc;
+    box-shadow: 0 7px 10px 0 rgba(87, 87, 84, .3);
+    box-sizing: border-box;
+}
+
+.floor.c_3 .color-list li {
+    margin: 2px 8px;
+    width: 24px;
+    height: 24px;
+    box-shadow: 0 7px 10px 0 transparent;
+}
+
+.floor .color-list li {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    margin: 2px 6px;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+}
+
+.floor.c_3 .prompt {
+    padding: 11px 0 48px;
+    max-width: 220px;
+    font-size: 14px;
+}
+
+.floor .prompt {
+    /* display: inline-block; */
+    vertical-align: top;
+    margin-right: 2px;
+    padding: 8px 0px 22px;
+    max-width: 185px;
+    color: #333;
+    font-size: 12px;
+    line-height: 45px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.floor.c_3 .prompt-price {
+    padding: 11px 0 48px;
+    font-size: 14px;
+}
+
+.floor .prompt-price {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 2px 30px;
+    color: #f51919;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+
+.floor .btn:first-child {
+    margin-left: 0;
+}
+
+.floor .btn {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.floor .btn:first-child:after {
+    content: "查看详情";
+    color: gray;
+    border-color: #e6e6e6;
+}
+
+.floor .btn:after {
+    display: block;
+    width: 100px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px / 50%;
+}
+
+.floor .btn.putin-shopcart:after, .floor .btn.full-book:after {
+    content: "加入购物车";
+    color: #fff;
+    border-color: #f51919;
+    background-color: #f51919;
+}
+
+.rmb-symbol::before {
+    content: "¥";
+    margin-right: 2px;
+    color: rgb(245, 25, 25);
+    font-size: 14px;
+    font-family: "Avenir Roman", "Microsoft YaHei", 微软雅黑;
+}
+
+.floor .btn:after {
+    display: block;
+    width: 100px;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 15px / 50%;
+}
+
+.floor.c_3 .name {
+    padding-top: 29px;
+    font-size: 20px;
+}
+
+.floor .name, .floor .feature {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.floor .name {
+    padding-top: 16px;
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.floor.c_3 .feature {
+    padding: 8px 50px 53px;
+    font-size: 14px;
+}
+
+.floor .feature {
+    padding: 2px 15px 40px;
+    height: 24px;
+    color: #333;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.floor.c_3 .price {
+    font-size: 18px;
+}
+
+.floor .price {
+    color: #f51919;
+    font-size: 16px;
+    line-height: 1;
+}
+
+.floor .box-list {
+    content: "\00a5";
+    margin-right: 2px;
+    color: #f51919;
+    font-size: 14px;
+    font-family: "Avenir Roman", "Microsoft YaHei", "微软雅黑";
+}
+
+.floor.c_3 .color-list {
+    padding-top: 28px;
+}
+
+img {
+    border: none;
+}
+
+.floor .box-list {
+    display: inline-block;
+    width: 100%;
+    line-height: 0;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.floor.pc_6 .box:first-child {
+    width: 595px;
+}
+
+.floor.pc_6 .box:first-child > a > img, .floor.pc_6 .box, .floor.c_8 .box {
+    height: 380px;
+}
+
+.floor .box {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    font-size: 0;
+    text-align: center;
+    background-color: #fff;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -ms-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+
+.floor .box > a {
+    display: block;
+}
+
+.floor.pc_6 .box:first-child > a > img {
+    margin: 0;
+    width: 100%;
+}
+
+.floor.pc_6 .box > a > img, .floor.c_8 .box > a > img {
+    margin-top: 43px;
+    width: 172px;
+    height: 172px;
+}
+
+.btn-wrapper {
+    padding-top: 20px;
+}
+
+.floor .box > a > img {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+.floor .box-list:after {
+    content: "";
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+}
+
+.floor .more-wrapper li, .floor .more-wrapper a {
+    float: left;
+}
+
+.cl:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

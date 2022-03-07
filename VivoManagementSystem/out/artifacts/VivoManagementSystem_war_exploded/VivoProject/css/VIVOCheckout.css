@@ -1,0 +1,117 @@
+abbr, article, aside, blockquote, body, canvas, dd, div, dl, dt, embed, fieldset, figure, form, gloabl, h1, h2, h3, h4, h5, h6, header, hgroup, html, img, input, li, nav, ol, p, pre, Section, section, td, th, ul, xml {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin-top: 60px;
+    background: #f2f2f2;
+    color: #343434;
+    padding: 30px;
+}
+
+.home-wrap {
+    margin-bottom: 60px;
+}
+
+.content-wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.home-wrap .content-wrap h2 {
+    height: 72px;
+    margin-bottom: 17px;
+    background: #fff;
+    line-height: 72px;
+    font-weight: 400;
+    font-size: 21px;
+    text-align: center;
+}
+
+.info-wrap {
+    padding: 20px 35px 20px 130px;
+    background: url("../images/data_image_png.png") 40px 40px no-repeat #fff;
+}
+
+.info-wrap .content .fee {
+    height: 40px;
+    line-height: 40px;
+    font-size: 22px;
+}
+
+.info-wrap .content .fee .fee-num {
+    color: #f81200;
+}
+
+.info-wrap .content .count-down {
+    height: 30px;
+    line-height: 30px;
+}
+
+.info-wrap .content .count-down .count-time {
+    color: #20a9e9;
+}
+
+.info-wrap .content .hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-top: 1px solid hsla(0, 0%, 63%, .2);
+}
+
+.info-wrap .content .detail-title {
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.info-wrap .content .detail-title i {
+    position: relative;
+    top: -2px;
+    display: inline-block;
+    width: 10px;
+    height: 7px;
+    margin-left: 6px;
+    background: url("../images/data_image_png2.png") 0 no-repeat;
+    transition: all .3s ease-in-out;
+}
+
+.info-wrap .content ul {
+    font-size: 14px;
+    color: #727272;
+}
+
+.info-wrap .content ul .spread-wrap {
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.info-wrap .content ul li {
+    overflow: hidden;
+}
+
+.info-wrap .content .fl {
+    float: left;
+}
+
+.info-wrap .content ul li span {
+    width: 75px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.fl {
+    float: left;
+}
+
+.info-wrap .content ul li p {
+    width: 960px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+}
+
+.info-wrap .content .detail-title.active i {
+    transform: rotate(180deg);
+}

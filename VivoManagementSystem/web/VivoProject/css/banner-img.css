@@ -1,0 +1,60 @@
+#banner {
+    position: absolute;
+    width: 100%;
+    height: 563px;
+    overflow: hidden;
+}
+
+.img-wrap {
+    position: absolute;
+    left: 0;
+    width: 455%;
+    height: 100%;
+}
+
+.item {
+    display: block;
+    width: 22%; /*图片子集 五分之一的宽度*/
+    height: 600px;
+    background-position: 50%;
+    background-size: cover;
+    float: left;
+}
+
+.btn-list {
+    position: absolute;
+    left: 46%;
+    bottom: 10px;
+    width: 255px;
+    height: 10px;
+    z-index:999;
+}
+
+.btn-list .btn {
+    width: 35px;
+    height: 3px;
+    border: 1px solid silver;
+    float: left;
+    margin-left: 10px;
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+.active{
+    height: 6px !important;
+    background-color: #7f7575 !important;
+}
+.btn-list .btn:hover {
+    height: 10px;
+    background-color: #f1f1f1;
+}
+
+@media screen and (max-width:1088px) {
+    #banner {
+        width: 1200px;
+    }
+}
+@media screen and (max-width:700px) {
+    #banner {
+        width: 1200px;
+    }
+}

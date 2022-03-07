@@ -1,0 +1,244 @@
+/* 列表元素 */
+.wrapper{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+.wrapper .category{
+    position: relative;
+    z-index: 4;
+    float: left;
+    margin-top: 56px;
+    width: 200px;
+    /*height: 482px;*/
+    font-size: 0;
+    line-height: 1;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.65);
+}
+.category > li {
+    display: inline-block;
+    /*writing-mode: horizontal-tb;*/
+    width: 100%;
+}
+.list-wrap:nth-child(1){
+    margin-top: 20px;
+}
+.list-wrap:nth-last-child(1){
+    margin-bottom: 20px;
+}
+.category-name{
+    position: relative;
+    display: block;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    line-height: 60px;
+    text-align: left;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0 48px 0 42px;
+    overflow: hidden;
+}
+.category-name .arrow{
+    position: relative;
+    right: -90%;
+    top: 0;
+}
+.arrow {
+    display: inline-block;
+    position: relative;
+    width: 6px;
+    height: 10px;
+}
+.arrow::before, .arrow::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 7px;
+    height: 1px;
+    background: currentColor;
+    transform-origin: left center;
+    transform: rotate(40deg);
+}
+.arrow::after {
+    top: auto;
+    bottom: 0;
+    transform: rotate(-40deg);
+}
+.category > .list-wrap:hover{
+    background-color: white;
+}
+.category > li:hover .category-box {
+    display: block;
+}
+.category .list-wrap .category-box{
+    display: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 100%;
+    text-align: left;
+    white-space: nowrap;
+    background: padding-box rgb(255, 255, 255);
+    border-left: 14px solid transparent;
+}
+.category-detail{
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 50px 0 44px;
+    width: 656px;
+    height: 415px;
+    white-space: normal;
+}
+
+.category .list-wrap .category-box .category-detail .category-all{
+    float: right;
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+    line-height: 58px;
+}
+.category-detail  p {
+    color: rgb(37, 37, 37);
+    font-size: 16px;
+    line-height: 58px;
+    display: inline-block;
+
+}
+.category-all:hover{
+    color: red !important;
+}
+
+.has-border {
+    border-color: rgb(229, 229, 229);
+}
+.category-sub {
+    margin-bottom: 9px;
+    padding-bottom: 6px;
+    font-size: 1px;
+    text-align: justify;
+    border-bottom: 1px solid rgb(229, 229, 229);
+}
+.category-sub li {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 12px;
+    width: 156px;
+}
+.category-sub a {
+    position: relative;
+    z-index: 0;
+    display: block;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    line-height: 50px;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    padding: 0px 8px;
+    border-radius: 6px;
+    background: center center / cover;
+    overflow: hidden;
+}
+.category-sub a:hover::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.06);
+}
+.category-product {
+    margin-bottom: -40px;
+    padding-top: 39px;
+    width: 690px;
+    font-size: 1px;
+    text-align: justify;
+}
+.category-product li {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 20px;
+    width: 227px;
+    height: 46px;
+    font-size: 0px;
+}
+.category-product span {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8px;
+    max-width: 168px;
+    color: #252525;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.category-product img {
+    vertical-align: middle;
+    width: 46px;
+    height: 46px;
+}
+fieldset, img {
+    border: 0;
+}
+/*.category-product img {*/
+    /*background: #fff url(../images/vivo-logo.png) center / 90% no-repeat;*/
+/*}*/
+.category-product li:nth-of-type(1):not(:empty)::before, .category-product li:nth-of-type(2):not(:empty)::before {
+    content: "";
+    position: absolute;
+    margin: -17px 0 0 36px;
+    width: 26px;
+    height: 26px;
+    background: #FC4F66 center / 18px no-repeat url(../images/hot_c29ecc5.png);
+    border-radius: 50%;
+}
+.category-product li:nth-of-type(2):not(:empty)::before {
+    background: #FC854F center / 18px no-repeat url(../images/recommend_e6d56bf.png);
+}
+
+.floor-list {
+    padding-bottom: 40px;
+}
+.floor .box-list {
+    display: inline-block;
+    line-height: 0;
+    text-align: justify;
+}
+.floor.fp.fp4 .box, .floor.pc_6 .box, .floor.c_8 .box {
+    width: 293px;
+}
+.floor.fp.fp4 .box{
+    margin-top: 100px;
+}
+.floor .box {
+    position: relative;
+    display: inline-block;
+    /*vertical-align: top;*/
+    margin-bottom: 10px;
+    font-size: 0;
+    text-align: center;
+    background-color: #fff;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+}
+.floor .box>a {
+    display: block;
+}
+.floor.fp.fp4 .box>a>img {
+    height: 140px;
+}
+
+.floor .box:hover {
+    transform: translate3d(0,-2px,0);
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    -moz-box-shadow: 0 15px 30px rgba(0,0,0,.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,.1);
+}
+
+

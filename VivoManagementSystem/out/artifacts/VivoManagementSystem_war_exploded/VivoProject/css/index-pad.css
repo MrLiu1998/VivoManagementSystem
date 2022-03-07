@@ -1,0 +1,153 @@
+/* 头部开始 */
+.hide-pc{
+    display: block;
+}
+.main .main-top.hide-phone {
+    display: none;
+}
+.nav2{
+    display: block;
+}
+.nav2 > .header-middle-li a{
+    font-size: 15px;
+}
+
+.nav1{
+    display: none !important;
+}
+
+.vp-head .vp-head-site{
+    width: 100%;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.vp-head .vp-head-site:hover .header-middle > li a,.vp-head-site:hover > .login > a{
+    color: #000;
+}
+.vp-head-site > .login > a:hover{
+    color: #415fff;
+}
+.vp-head-site > .login > a{
+    font-size: 80px;
+}
+
+
+.vp-head-products-mask{
+    height: 900px;
+    top: -900px;
+}
+.vp-head-site > .header-middle > li a{
+    font-size: 14px;
+}
+.vp-head-site > .header-middle > li{
+    padding: 0 20px;
+}
+.vp-head .vp-head-mainbar-pc .vp-head-site .header-middle .header-middle-li .vp-head-menu-series .vp-head-series-wrapper ul{
+    top: -900px;
+}
+.vp-head .vp-head-menu-series{
+    overflow: initial;
+}
+
+@media screen and (max-width: 900px) {
+    .vp-head-site > .header-middle > li {
+        padding: 0 20px !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .vp-head-site > .header-middle > li {
+        padding: 0 12px !important;
+    }
+}
+
+.vp-head-site > .header-middle > li {
+    padding: 0 30px;
+}
+.vp-head-site > .header-middle:hover > li:hover a{
+    color: #415fff ;
+}
+
+
+.main > .main-top .banner-large-bg.bg1 > img{
+    height: 100%;
+    position: relative;
+    /* height: 100%; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media screen and (max-width:1088px) {
+    .vp-head-site > .login > a{
+        color: #fff ;
+    }
+}
+
+
+/* 头部结束 */
+/* 内容开始 */
+.main > .main-top .banner-large-content{
+    padding-left: 150px;
+    box-sizing: border-box;
+    transition: all .2s ease-in-out;
+    top: 145px;
+}
+.main > .main-top .banner-large-content svg{
+    width: 109px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+.main > .main-top .banner-large-content .banner-large-title{
+    font-size: 25px;
+}
+.main > .main-top .banner-large-content .banner-large-links a{
+    font-size: 16px;
+}
+.main > .main-top .banner-large-content .banner-large-subtitle{
+    font-size: 14px;
+}
+.main-left ,.main-right{
+    height: 300px;
+}
+.main-title .banner-middle-title{
+    font-size: 22px;
+}
+.main-title .banner-middle-subtitle{
+    font-size: 16px;
+}
+.footer-top>.footer-top-right>p>span.icon-weibo, .footer-top>.footer-top-right>p>span.icon-wechat-fill, .footer-top>.footer-top-right>p>span.icon-changyonglogo30{
+    width: 17px;
+    font-size: 24px;
+}
+.main-small > .main-Item .main-small-content .main-small-title{
+    font-size: 18px;
+}
+.main-small{
+    flex-wrap: wrap;
+}
+.main-small > .main-Item{
+    flex: none;
+    width: 50%;
+    margin-top: 5px;
+}
+.main .main-top{
+    margin-bottom: 5px;
+}
+.main .main-top.hide-pc{
+    height: 500px;
+}
+.main-bottom{
+    margin-top: 5px;
+}
+/* 内容结束 */
+/* 底部开始 */
+.footer>.footer-in{
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+/* 底部结束 */
+/* 返回开始 */
+
+/* 返回结束 */

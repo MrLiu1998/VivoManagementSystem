@@ -1,0 +1,60 @@
+.home-foot-area {
+    padding: 30px 0 70px;
+}
+
+.shop-foot-area {
+    background: #fff;
+    overflow: hidden;
+}
+
+.wrapper {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.cl {
+    zoom: 1;
+}
+
+.home-foot-area .vvs-agree {
+    padding: 30px 0;
+    border-bottom: 1px solid #dedede;
+}
+
+.vvs-agree {
+    height: 28px;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+.vvs-agree-item {
+    width: 25%;
+    height: 28px;
+    float: left;
+    display: inline;
+    line-height: 28px;
+    text-align: center;
+}
+
+.vvs-agree-item a {
+    color: #333;
+    font-size: 18px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+.vvs-agree-item b {
+    margin-right: 8px;
+    font-size: 30px;
+    vertical-align: middle;
+}
+b, em, i {
+    font-weight: 300;
+    font-style: normal;
+}
