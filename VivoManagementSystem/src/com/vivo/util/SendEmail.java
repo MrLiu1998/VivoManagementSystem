@@ -5,6 +5,7 @@ import java.util.Collections;
 import java.util.List;
 
 import org.apache.commons.mail.HtmlEmail;
+import org.apache.commons.mail.SimpleEmail;
 
 public class SendEmail {
 
@@ -35,24 +36,26 @@ public class SendEmail {
 	 */
 	public String sendEamilCode(String eamil) {
 
-		// 创建HtmlEmail对象
-		HtmlEmail send = new HtmlEmail();
+	/*	// 创建HtmlEmail对象
+		HtmlEmail send = new HtmlEmail();*/
+		SimpleEmail send=new SimpleEmail();//创建一个HtmlEmail实例对象
 		// 获取验证码
 		String achieveCode = achieveCode();
 		try {
 			send.setHostName("smtp.qq.com");// 服务器名称 smtp.qq.com
+			send.setCharset("utf-8");
 			send.setSmtpPort(465);// 端口号
 //			send.setSSL(true);
-		/*	send.setSSL(true);
-			send.setTLS(true);*/
-			send.setSSLOnConnect(true);// 开启SSL服务
+//			send.setSSL(true);
+//			send.setTLS(true);
 			send.setCharset("utf-8");// 设置字符集
 			System.out.println(eamil);
 
-			send.addTo(eamil); // 接收者的QQEamil pxkryqrpxxhkcaaj
-			send.setFrom("1692700664@qq.com", "Genuine杨不易");// 第一个参数是发送者的QQEamil   第二个参数是发送者QQ昵称
+			send.addTo("liuhaoqiang9805@foxmail.com"); // 接收者的QQEamil pxkryqrpxxhkcaaj
+			send.setFrom("liuhaoqiang9805@foxmail.com", "刘浩强");// 第一个参数是发送者的QQEamil   第二个参数是发送者QQ昵称
 			// 授权码 dcidjcuxicegfdae 5157 授权码 pxkryqrpxxhkcaaj jmesctjmkbgzcaga ijlqklzbolluedjg
-			send.setAuthentication("1692700664@qq.com", "glolrturxxfpbijb");// 第一个参数是发送者的QQEamil   第二个参数是刚刚获取的授权码
+			send.setAuthentication("liuhaoqiang9805@foxmail.com", "osmjlvblcawjhhhj");// 第一个参数是发送者的QQEamil   第二个参数是刚刚获取的授权码
+			send.setSSLOnConnect(true);// 开启SSL服务
 			send.setSubject("小猪猪来啦!"); // 主题
 			send.setMsg("我来啦!!!,用户注册我们的商城!!!\t验证码双手奉上!!!!" + achieveCode + "\t我紧致的猪猪主人！"); // 设置内容
 			send.send();// 发送信息
@@ -60,7 +63,6 @@ public class SendEmail {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-
 		return achieveCode;
 	}
 }
